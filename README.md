@@ -273,7 +273,7 @@ now we have our verification contract let's deploy it in the sepolia network usi
    $ export pk=<your private key>
    $ export url=https://eth-sepolia.g.alchemy.com/v2/<your apikey>
    $ export etherscan=<etherscan apikey>
-   $ forge create --rpc-url $url --private-key $privat --etherscan-api-key $etherscan --verify src/Verifier.sol:Groth16Verifier
+   $ forge create --rpc-url $url --private-key $pk --etherscan-api-key $etherscan --verify src/Verifier.sol:Groth16Verifier
    ```
 
 ---
